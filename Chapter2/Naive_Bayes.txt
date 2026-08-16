@@ -1,0 +1,34 @@
+Both classes have equal posterior probabilities. 
+Hence, the classifier cannot uniquely classify the sample based 
+on the given information. 
+Additional features or a tie-breaking rule are required.
+
+maybe the one with high prior prob./ compare conditional prob.
+
+
+say in naive bayes,  i apply laplace for 1 conditional prob.
+ due to 0 freqcount, now should i compute the conditional  
+ prob of all features using laplace even though not zero, or 
+ only for the particular feature . say cloud=yes|rainy 
+ (0 frequency) cloud=no|rainy( freq = 2 but still laplace?
+
+ smoothing must be applied consistently across all values 
+ of that same feature given that class, not just to the 
+ zero-count one. It does not need to be applied to other 
+ unrelated features that don't have a zero-count problem.
+
+
+ see how to solve problems using bernoulli,gaussian,multinomial
+ naive bayes
+
+
+
+ see how to interpret like if this increases this much 
+ then by how much this will:
+ The positive slope (β1 = 0.9) indicates that sales increase as 
+ advertising expenditure increases. Specifically, for every 
+ additional $1,000 spent on advertising, the expected weekly 
+ sales increase by approximately $900. The OLS method 
+ determines the line that minimizes the sum of squared 
+ prediction errors, providing the best linear fit to the 
+ observed data.
